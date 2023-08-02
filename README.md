@@ -16,10 +16,11 @@ Once shortcut is complete, a new Apple Note is created and the text is copied to
 
 1. Download/fork/clone project
 
-2. Create "env" local environment:
+2. Create and activate "env" local environment:
 
 ```sh
 python3 -m venv env
+. ./env/vin/activate
 ```
 
 3. Then install dependency:
