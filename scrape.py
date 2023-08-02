@@ -42,6 +42,7 @@ def main():
         except:        
             print("Error::")
             print("This site is not supported.\n\n\n\n")
+            print(f"[Original Link]({target})\n\n\n\n")
             print(f"[JustTheRecipe Link](https://www.justtherecipe.com/?url={target})")
 
 if __name__ == "__main__":
