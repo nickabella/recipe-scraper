@@ -49,6 +49,6 @@ python scrape.py https://recipe.com/recipe
 	
 	c. example:
 	
-		i. `cd ~/GitHub/recipe-scraper; source ./env/bin/activate; python3 scrape.py Shortcut Input`
+`cd ~/GitHub/recipe-scraper; source ./env/bin/activate; python3 scrape.py 'Shortcut Input'`
 
 3. Run shortcut with link in clipboard or via Share sheet
