@@ -42,9 +42,13 @@ python scrape.py https://recipe.com/recipe
 1. [Download](https://www.icloud.com/shortcuts/79ba5f80d70841d6b2880edd6fdb2dfc)
 
 2. Edit "Run script over SSH" action
+
 	a. CD to directory where code will be executed on server and invoke script
+
 	b. configure host, port, user, and password
+	
 	c. example:
+	
 		i. `cd ~/GitHub/recipe-scraper; source ./env/bin/activate; python3 scrape.py Shortcut Input`
 
 3. Run shortcut with link in clipboard or via Share sheet
