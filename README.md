@@ -22,7 +22,7 @@ Once shortcut is complete, a new Apple Note is created and the text is copied to
 
 ```sh
 python3 -m venv env
-. ./env/vin/activate
+. ./env/bin/activate
 ```
 
 3. Then install dependency:
@@ -49,6 +49,6 @@ python scrape.py https://recipe.com/recipe
 	
 	c. example:
 	
-`cd ~/GitHub/recipe-scraper; source ./env/bin/activate; python3 scrape.py 'Shortcut Input'`
+`cd ~/GitHub/recipe-scraper; . ./env/bin/activate; python scrape.py 'Shortcut Input'`
 
 3. Run shortcut with link in clipboard or via Share sheet
